@@ -174,7 +174,7 @@
   Pages                    = {1--9}
 }
 
-@Article{beloglazov2012,
+@Article{beloglazov-fgcs12,
   Title                    = {Energy-aware resource allocation heuristics for efficient management of data centers for Cloud computing},
   Author                   = {Beloglazov, Anton and Abawajy, Jemal and Buyya, Rajkumar},
   Journal                  = {Future Generation Computer Systems },
@@ -998,7 +998,7 @@
   Keywords                 = {autonomic, autonomic computing, cloud autonomic managers, Cloud computing, cloud environments, cloud layers, cloud stack, cloud systems, control loop, coordination, coordination protocol, elasticity concept, fault tolerant computing, Grid5000, grid computing, intermanager events, multiple autonomic manager coordination, negative interferences, objectives interferences, physical infrastructure testbed, quality of service, self-adaptation techniques, self-management decisions, synchronization mechanisms}
 }
 
-@Article{oliveira-osr13,
+@Article{oliveira-osr12,
   Title                    = {Self-management of Cloud Applications and Infrastructure for Energy Optimization},
   Author                   = {de Oliveira,Jr., Frederico Alvares and Ledoux, Thomas},
   Journal                  = {SIGOPS Oper. Syst. Rev.},
@@ -1473,3 +1473,67 @@
   Key                      = {energy2009}
 }
 
+@TechReport {lee-msr11,
+abstract     = {<p>This paper examines two fundamental issues pertaining to virtual machines (VM)
+                consolidation.  Current virtualization management tools, both commercial and
+                academic, enable multiple virtual machines to be consolidated into few servers so
+                that other servers can be turned off, saving power.  These tools determine
+                effective strategies for VM placement with the help of clever optimization
+                algorithms, relying on two inputs: a model of resource utilization vs performance
+                tradeoff when multiple VMs are hosted together and estimates of resource
+                requirements for each VM in terms of CPU, network and storage.</p>
+
+                <p>This report investigates the following key questions: What factors govern the
+                performance model that drives VM placement, and how do competing resource demands
+                in multiple dimensions affect VM consolidation?  It establishes a few basic
+                insights about these questions through a combination of experiments and empirical
+                analysis.  This experimental study points out potential pitfalls in the use of
+                current VM management tools and identifies promising opportunities for more
+                effective performance consolidation algorithms. In addition to providing valuable
+                guidance to practitioners, we believe this report will serve as a starting point
+                for research into next-generation virtualization platforms and tools.</p>},
+author       = {Sangmin Lee and Rina Panigrahy and Vijayan Prabhakaran and Venugopalan
+                Ramasubramanian and Kunal Talwar and Lincoln Uyeda and Udi Wieder},
+month        = {January},
+number       = {MSR-TR-2011-9},
+publisher    = {Microsoft Research},
+title        = {Validating Heuristics for Virtual Machines Consolidation},
+url          = {http://research.microsoft.com/apps/pubs/default.aspx?id=144571},
+year         = {2011},
+}
+
+@inproceedings{verma-vmc14,
+ author = {Verma, Akshat and Bagrodia, Juhi and Jaiswal, Vimmi},
+ title = {Virtual Machine Consolidation in the Wild},
+ booktitle = {Proceedings of the 15th International Middleware Conference},
+ series = {Middleware '14},
+ year = {2014},
+ isbn = {978-1-4503-2785-5},
+ location = {Bordeaux, France},
+ pages = {313--324},
+ numpages = {12},
+ url = {http://doi.acm.org/10.1145/2663165.2663316},
+ doi = {10.1145/2663165.2663316},
+ acmid = {2663316},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+
+@inproceedings{le-sc11,
+ author = {Le, Kien and Bianchini, Ricardo and Zhang, Jingru and Jaluria, Yogesh and Meng, Jiandong and Nguyen, Thu D.},
+ title = {Reducing Electricity Cost Through Virtual Machine Placement in High Performance Computing Clouds},
+ booktitle = {Proceedings of 2011 International Conference for High Performance Computing, Networking, Storage and Analysis},
+ series = {SC '11},
+ year = {2011},
+ isbn = {978-1-4503-0771-0},
+ location = {Seattle, Washington},
+ pages = {22:1--22:12},
+ articleno = {22},
+ numpages = {12},
+ url = {http://doi.acm.org/10.1145/2063384.2063413},
+ doi = {10.1145/2063384.2063413},
+ acmid = {2063413},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {computing cloud, cooling, energy, multi-data-center},
+}  
