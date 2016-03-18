@@ -174,6 +174,34 @@
   Pages                    = {1--9}
 }
 
+@InProceedings{bellosa-sigops00,
+  Title                    = {The Benefits of Event: Driven Energy Accounting in Power-sensitive Systems},
+  Author                   = {Bellosa, Frank},
+  Booktitle                = {Proceedings of the 9th Workshop on ACM SIGOPS European Workshop: Beyond the PC: New Challenges for the Operating System},
+  Year                     = {2000},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {37--42},
+  Publisher                = {ACM},
+  Series                   = {EW 9},
+
+  Acmid                    = {566736},
+  Doi                      = {10.1145/566726.566736},
+  Location                 = {Kolding, Denmark},
+  Numpages                 = {6},
+  Owner                    = {cdupont},
+  Timestamp                = {2016.03.18},
+  Url                      = {http://doi.acm.org/10.1145/566726.566736}
+}
+
+@PhdThesis{beloglazov-unimel13,
+  Title                    = {Energy-Efficient Management of Virtual Machines in Data Centers for Cloud Computing},
+  Author                   = {Beloglazov, Anton},
+  School                   = {University of Melbourne},
+  Year                     = {2013},
+  Type                     = {Doctorate Thesis}
+}
+
 @Article{beloglazov-fgcs12,
   Title                    = {Energy-aware resource allocation heuristics for efficient management of data centers for Cloud computing},
   Author                   = {Beloglazov, Anton and Abawajy, Jemal and Buyya, Rajkumar},
@@ -285,7 +313,7 @@
 
 @InProceedings{carpen-smartgreens14,
   Title                    = {Towards Energy-aware {IaaS-PaaS} Co-design},
-  Author                   = {Carpen-Amarie, Alexandra and Dib, Djawida and Orgerie, Anne-C ́ecile and Pierre, Guillaume},
+  Author                   = {Carpen-Amarie, Alexandra and Dib, Djawida and Orgerie, Anne-Cecile and Pierre, Guillaume},
   Booktitle                = {{SMARTGREENS} 2014},
   Year                     = {2014},
   Pages                    = {203--208},
@@ -394,6 +422,18 @@
   Language                 = {English}
 }
 
+@PhdThesis{dupont-unitn16,
+  Title                    = {Energy Adaptive Infrastructure for Sustainable Cloud Data Centres},
+  Author                   = {Corentin Dupont},
+  School                   = {University of Trento},
+  Year                     = {2016},
+
+  Address                  = {Trento, Italy},
+
+  Owner                    = {cdupont},
+  Timestamp                = {2016.03.09}
+}
+
 @InProceedings{dupont-e2dc14,
   Title                    = {Building Application Profiles to Allow a Better Usage of the Renewable Energies in Data Centres},
   Author                   = {Dupont, Corentin},
@@ -475,7 +515,9 @@
   Title                    = {Full-system power analysis and modeling for server environments},
   Author                   = { Economou, Dimitris and Rivoire, Suzanne and Kozyrakis, Christos},
   Booktitle                = {In Workshop on Modeling Benchmarking and Simulation},
-  Year                     = {2006}
+  Year                     = {2006},
+
+  File                     = {:./files/3A-Economou.pdf:PDF}
 }
 
 @InProceedings{elsayed-sigmetrics12,
@@ -491,6 +533,7 @@
 
   Acmid                    = {2254778},
   Doi                      = {10.1145/2254756.2254778},
+  File                     = {:./files/elSayed.pdf:PDF},
   ISBN                     = {978-1-4503-1097-0},
   Keywords                 = {CPU, DRAM, LSE, data center, energy, fans, hard drive, memory, performance, reliability, temperature},
   Location                 = {London, England, UK},
@@ -505,7 +548,7 @@
   Type                     = {White paper}
 }
 
-@InProceedings{fan2007,
+@InProceedings{fan-isca07,
   Title                    = {Power provisioning for a warehouse-sized computer},
   Author                   = {Fan, Xiaobo and Weber, Wolf-Dietrich and Barroso, Luiz Andre},
   Booktitle                = {Proceedings of the 34\textsuperscript{th} annual international symposium on Computer architecture},
@@ -516,6 +559,7 @@
   Series                   = {ISCA '07},
 
   Acmid                    = {1250665},
+  File                     = {:./files/power_provisioning.pdf:PDF},
   ISBN                     = {978-1-59593-706-3},
   Keywords                 = {energy efficiency, power modeling, power provisioning},
   Location                 = {San Diego, California, USA},
@@ -886,6 +930,39 @@
   Publisher                = {INFORMS}
 }
 
+@InProceedings{le-sc11,
+  Title                    = {Reducing Electricity Cost Through Virtual Machine Placement in High Performance Computing Clouds},
+  Author                   = {Le, Kien and Bianchini, Ricardo and Zhang, Jingru and Jaluria, Yogesh and Meng, Jiandong and Nguyen, Thu D.},
+  Booktitle                = {Proceedings of 2011 International Conference for High Performance Computing, Networking, Storage and Analysis},
+  Year                     = {2011},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {22:1--22:12},
+  Publisher                = {ACM},
+  Series                   = {SC '11},
+
+  Acmid                    = {2063413},
+  Articleno                = {22},
+  Doi                      = {10.1145/2063384.2063413},
+  ISBN                     = {978-1-4503-0771-0},
+  Keywords                 = {computing cloud, cooling, energy, multi-data-center},
+  Location                 = {Seattle, Washington},
+  Numpages                 = {12},
+  Url                      = {http://doi.acm.org/10.1145/2063384.2063413}
+}
+
+@TechReport{lee-msr11,
+  Title                    = {Validating Heuristics for Virtual Machines Consolidation},
+  Author                   = {Sangmin Lee and Rina Panigrahy and Vijayan Prabhakaran and Venugopalan Ramasubramanian and Kunal Talwar and Lincoln Uyeda and Udi Wieder},
+  Year                     = {2011},
+  Month                    = {January},
+  Number                   = {MSR-TR-2011-9},
+
+  Abstract                 = {<p>This paper examines two fundamental issues pertaining to virtual machines (VM) consolidation. Current virtualization management tools, both commercial and academic, enable multiple virtual machines to be consolidated into few servers so that other servers can be turned off, saving power. These tools determine effective strategies for VM placement with the help of clever optimization algorithms, relying on two inputs: a model of resource utilization vs performance tradeoff when multiple VMs are hosted together and estimates of resource requirements for each VM in terms of CPU, network and storage.</p> <p>This report investigates the following key questions: What factors govern the performance model that drives VM placement, and how do competing resource demands in multiple dimensions affect VM consolidation? It establishes a few basic insights about these questions through a combination of experiments and empirical analysis. This experimental study points out potential pitfalls in the use of current VM management tools and identifies promising opportunities for more effective performance consolidation algorithms. In addition to providing valuable guidance to practitioners, we believe this report will serve as a starting point for research into next-generation virtualization platforms and tools.</p>},
+  Publisher                = {Microsoft Research},
+  Url                      = {http://research.microsoft.com/apps/pubs/default.aspx?id=144571}
+}
+
 @InProceedings{li-iswitch2012,
   Title                    = {{iSwitch}: {Coordinating} and optimizing renewable energy powered server clusters},
   Author                   = {Li, Chao and Qouneh, A. and Li, Tao},
@@ -1083,7 +1160,7 @@
   Numpages                 = {12}
 }
 
-@InProceedings{rivoire2008,
+@InProceedings{rivoire-hotpower08,
   Title                    = {A comparison of high-level full-system power models},
   Author                   = {Rivoire, Suzanne and Ranganathan, Parthasarathy and Kozyrakis, Christos},
   Booktitle                = {Proceedings of the 2008 conference on Power aware computing and systems},
@@ -1092,6 +1169,7 @@
   Series                   = {HotPower'08},
 
   Acmid                    = {1855613},
+  File                     = {:./files/rivoire.pdf:PDF},
   Location                 = {San Diego, California}
 }
 
@@ -1272,6 +1350,21 @@
   Url                      = {http://dx.doi.org/10.1109/TPDS.2008.111}
 }
 
+@PhdThesis{thiam-unitoulouse14,
+  Title                    = {{Anti Load-Balancing for Energy-Aware Distributed Scheduling of Virtual Machines.}},
+  Author                   = {Thiam, Cheikhou},
+  School                   = {Université de Toulouse},
+  Year                     = {2014},
+
+  Address                  = {Toulouse, France},
+  Month                    = {juillet},
+  Note                     = {(Soutenance le 03/07/2014)},
+  Type                     = {Thèse de doctorat},
+
+  Language                 = {anglais},
+  Url                      = {http://www.irit.fr/~Georges.Da-Costa/thiam.pdf}
+}
+
 @Article{nefeli2013,
   Title                    = {Hint-Based Execution of Workloads in Clouds with Nefeli},
   Author                   = {Tsakalozos, K. and Roussopoulos, M. and Delis, A.},
@@ -1313,6 +1406,25 @@
   Volume                   = {5346},
 
   ISBN                     = {978-3-540-89855-9}
+}
+
+@InProceedings{verma-vmc14,
+  Title                    = {Virtual Machine Consolidation in the Wild},
+  Author                   = {Verma, Akshat and Bagrodia, Juhi and Jaiswal, Vimmi},
+  Booktitle                = {Proceedings of the 15th International Middleware Conference},
+  Year                     = {2014},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {313--324},
+  Publisher                = {ACM},
+  Series                   = {Middleware '14},
+
+  Acmid                    = {2663316},
+  Doi                      = {10.1145/2663165.2663316},
+  ISBN                     = {978-1-4503-2785-5},
+  Location                 = {Bordeaux, France},
+  Numpages                 = {12},
+  Url                      = {http://doi.acm.org/10.1145/2663165.2663316}
 }
 
 @InProceedings{voor2009,
@@ -1473,67 +1585,3 @@
   Key                      = {energy2009}
 }
 
-@TechReport {lee-msr11,
-abstract     = {<p>This paper examines two fundamental issues pertaining to virtual machines (VM)
-                consolidation.  Current virtualization management tools, both commercial and
-                academic, enable multiple virtual machines to be consolidated into few servers so
-                that other servers can be turned off, saving power.  These tools determine
-                effective strategies for VM placement with the help of clever optimization
-                algorithms, relying on two inputs: a model of resource utilization vs performance
-                tradeoff when multiple VMs are hosted together and estimates of resource
-                requirements for each VM in terms of CPU, network and storage.</p>
-
-                <p>This report investigates the following key questions: What factors govern the
-                performance model that drives VM placement, and how do competing resource demands
-                in multiple dimensions affect VM consolidation?  It establishes a few basic
-                insights about these questions through a combination of experiments and empirical
-                analysis.  This experimental study points out potential pitfalls in the use of
-                current VM management tools and identifies promising opportunities for more
-                effective performance consolidation algorithms. In addition to providing valuable
-                guidance to practitioners, we believe this report will serve as a starting point
-                for research into next-generation virtualization platforms and tools.</p>},
-author       = {Sangmin Lee and Rina Panigrahy and Vijayan Prabhakaran and Venugopalan
-                Ramasubramanian and Kunal Talwar and Lincoln Uyeda and Udi Wieder},
-month        = {January},
-number       = {MSR-TR-2011-9},
-publisher    = {Microsoft Research},
-title        = {Validating Heuristics for Virtual Machines Consolidation},
-url          = {http://research.microsoft.com/apps/pubs/default.aspx?id=144571},
-year         = {2011},
-}
-
-@inproceedings{verma-vmc14,
- author = {Verma, Akshat and Bagrodia, Juhi and Jaiswal, Vimmi},
- title = {Virtual Machine Consolidation in the Wild},
- booktitle = {Proceedings of the 15th International Middleware Conference},
- series = {Middleware '14},
- year = {2014},
- isbn = {978-1-4503-2785-5},
- location = {Bordeaux, France},
- pages = {313--324},
- numpages = {12},
- url = {http://doi.acm.org/10.1145/2663165.2663316},
- doi = {10.1145/2663165.2663316},
- acmid = {2663316},
- publisher = {ACM},
- address = {New York, NY, USA},
-}
-
-@inproceedings{le-sc11,
- author = {Le, Kien and Bianchini, Ricardo and Zhang, Jingru and Jaluria, Yogesh and Meng, Jiandong and Nguyen, Thu D.},
- title = {Reducing Electricity Cost Through Virtual Machine Placement in High Performance Computing Clouds},
- booktitle = {Proceedings of 2011 International Conference for High Performance Computing, Networking, Storage and Analysis},
- series = {SC '11},
- year = {2011},
- isbn = {978-1-4503-0771-0},
- location = {Seattle, Washington},
- pages = {22:1--22:12},
- articleno = {22},
- numpages = {12},
- url = {http://doi.acm.org/10.1145/2063384.2063413},
- doi = {10.1145/2063384.2063413},
- acmid = {2063413},
- publisher = {ACM},
- address = {New York, NY, USA},
- keywords = {computing cloud, cooling, energy, multi-data-center},
-}  
